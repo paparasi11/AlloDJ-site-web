@@ -31,6 +31,8 @@ REQUIS = (
     "inc/seo.php",
     "inc/faq.php",
     "inc/i18n.php",
+    "inc/legal.php",
+    "inc/legal-content.php",
     "inc/llms.txt",
     "assets/js/site.js",
     "assets/js/consent.js",

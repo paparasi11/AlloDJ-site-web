@@ -93,8 +93,25 @@ function get_page_by_path( $chemin ) {
 function get_permalink( $p = null ) { return 'https://exemple.test/' . ( is_object( $p ) ? $p->post_name : 'page' ) . '/'; }
 function get_the_title( $p = null ) { return is_object( $p ) ? ucfirst( str_replace( '-', ' ', $p->post_name ) ) : 'Titre'; }
 function get_the_modified_date( $f ) { return date( $f ); }
-function have_posts() { return false; }
+// Une seule itération : sans elle, le corps de la boucle de page-legal.php
+// (et de tout futur gabarit qui en dépend) ne s'exécute jamais — 0 octet
+// rendu, aucune preuve que le contenu embarqué s'affiche vraiment.
+function have_posts() {
+	static $fait = false;
+	if ( $fait ) {
+		return false;
+	}
+	return $fait = true; // phpcs:ignore Squiz.PHP.DisallowMultipleAssignments
+}
 function the_post() {}
+// La page simulée dans WordPress. mentions-legales : c'est justement celle
+// dont le contenu doit venir du thème, pas de the_content().
+function get_queried_object() {
+	return (object) array( 'post_name' => 'mentions-legales' );
+}
+function get_post( $p = null ) {
+	return null === $p ? get_queried_object() : $p;
+}
 function the_title() { echo 'Titre'; }
 function the_content() { echo '<p>Contenu</p>'; }
 function wp_script_is( ...$a ) { return false; }
@@ -124,6 +141,9 @@ $theme_dir = $theme;
 require $theme . '/inc/faq.php';
 require $theme . '/inc/seo.php';
 require $theme . '/inc/i18n.php';
+if ( file_exists( $theme . '/inc/legal.php' ) ) {
+	require $theme . '/inc/legal.php';
+}
 
 // functions.php enregistre des hooks ; on ne prend que les fonctions utilitaires.
 $fonctions = file_get_contents( $theme . '/functions.php' );
