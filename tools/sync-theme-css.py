@@ -119,13 +119,19 @@ def main() -> None:
     style.write_text(sortie, encoding="utf-8", newline="\n")
 
     # Vérité mesurée : les jetons et les points de rupture ont bien suivi.
-    # L'accent attendu dépend de la palette : rose pour la v2, lime pour la v1.
-    # On lit la DERNIÈRE déclaration de --peak, celle qui gagne en cascade.
-    accent = "#C6F24E" if args.palette else "#E16590"
+    # L'accent attendu n'est pas une couleur figée dans ce script — sinon ce
+    # contrôle devient lui-même périmé au premier changement de palette (vécu :
+    # il attendait encore le vert citron après le passage à l'indigo du logo).
+    # On relit plutôt la DERNIÈRE déclaration de --peak dans la source qui doit
+    # gagner la cascade (la palette si elle existe, sinon design), et on vérifie
+    # que c'est bien elle qui l'emporte dans le fichier final.
+    source_accent = palette if args.palette else design
+    attendues = re.findall(r"--peak:\s*(#[0-9A-Fa-f]{6})", source_accent)
+    accent = attendues[-1].upper() if attendues else None
     declares = re.findall(r"--peak:\s*(#[0-9A-Fa-f]{6})", sortie)
     controles = {
         "--cream": "--cream:" in sortie,
-        f"accent {accent}": bool(declares) and declares[-1].upper() == accent,
+        f"accent {accent}": bool(accent) and bool(declares) and declares[-1].upper() == accent,
         "nav qui déroule sous 1000 px": ".nav{order:3" in sortie,
         "cibles 44 px": "min-height:44px;padding:0 13px" in sortie,
         "règles au doigt": "(max-width:1000px), (pointer:coarse)" in sortie,

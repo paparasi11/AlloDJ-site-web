@@ -1,5 +1,7 @@
-/* ══ PALETTE V1 — noir froid et vert citron ══
-   À charger APRÈS site.css. Ce fichier ne contient aucune règle de mise en
+/* ══ PALETTE V1 — noir froid et indigo du logo ══
+   L'accent était un vert citron ; il est remplacé par l'indigo du logo
+   (#3A3285), la maquette de base ne change pas. À charger APRÈS site.css.
+   Ce fichier ne contient aucune règle de mise en
    page : la v1 et la v2 partagent exactement le même responsive, le même
    découpage et les mêmes cibles tactiles. Seules les couleurs changent.
 
@@ -11,7 +13,20 @@
 :root{
   --void:#0A0A0B; --panel:#141416; --panel-2:#1C1C1F;
   --line:#26262B; --line-2:#3A3A42;
-  --blue:#2E5BFF; --rose:#E10181; --peak:#C6F24E;
+  --blue:#2E5BFF; --rose:#E10181;
+
+  /* --peak n'est plus le vert citron d'origine : c'est l'indigo du logo
+     (#3A3285), éclairci à L 72 % pour rester lisible en texte sur le noir
+     quasi pur de la v1 (pire cas 5,98:1 sur --panel-2, dans la marge de
+     --blue-t ci-dessous). --peak sert de texte/icône dans l'immense majorité
+     de ses usages (site.css) ; à cette clarté il fonctionne aussi comme fond
+     avec le texte sombre déjà en place (--on-peak), exactement comme le
+     citron avant lui — aucune règle de site.css n'a donc à changer.
+     L'indigo du logo n'a pas disparu : il sert de --peak-d, l'ombre portée
+     sous le bouton d'accent — plus sombre que --peak, même teinte, le rôle
+     naturel d'une couleur à cette luminosité. */
+  --peak:#9890DF;
+
   --ink:#F2F2F3; --ink-2:#A8A8B0;
 
   /* #82828C d'origine tombait à 4,47:1 sur --panel-2 : sous le seuil AA, de
@@ -28,16 +43,23 @@
   --blue-rgb:46 91 255;
 
   --shadow-pad:#1B3AAE;
-  --peak-d:#8FB32E;
-  --rose-d:#8FB32E;
+  --peak-d:#3A3285;
+  /* Propre à la v1 : site.css n'utilise --rose-d que via l'alias
+     --peak-d:var(--rose-d), que la ligne du dessus court-circuite déjà.
+     Elle a longtemps recopié la valeur de --peak-d par erreur (un olive
+     resté d'avant le citron) ; corrigée ici pour rester un vrai rose foncé,
+     au cas où un futur composant l'utilise directement. */
+  --rose-d:#9D015A;
 
   /* Sur le bleu électrique de la v1, c'est le blanc qui passe (5,2:1) et le
-     sombre qui échoue (3,8:1) — l'inverse exact de la v2. D'où le rôle. */
+     sombre qui échoue (3,8:1) — l'inverse exact de la v2. D'où le rôle.
+     --on-peak reste sombre : à L 72 %, le nouvel indigo est assez clair pour
+     que le texte sombre passe aussi bien dessus (5,98:1) que l'ancien citron. */
   --on-pad:#fff;
   --on-peak:var(--void);
 
   /* La v1 n'a pas de troisième couleur : son registre « promesse » était déjà
-     le vert citron. --cream s'y replie, et les trois endroits où la v1 avait
+     l'ancien accent. --cream s'y replie, et les trois endroits où la v1 avait
      fait un autre choix sont rétablis juste dessous. */
   --cream:var(--peak);
 }
