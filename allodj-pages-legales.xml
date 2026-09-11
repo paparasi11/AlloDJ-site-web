@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  Pages légales AlloDJ — généré par tools/build-wxr.py
+  Import : Outils → Importer → WordPress
+  Le modèle « Page légale » est déjà sélectionné sur chaque page.
+-->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+	<title>AlloDJ</title>
+	<link>https://allodeejay.com</link>
+	<description>Pages légales</description>
+	<pubDate>Fri, 11 Sep 2026 02:54:07 +0000</pubDate>
+	<language>fr-FR</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://allodeejay.com</wp:base_site_url>
+	<wp:base_blog_url>https://allodeejay.com</wp:base_blog_url>
+	<wp:author>
+		<wp:author_id>1</wp:author_id>
+		<wp:author_login><![CDATA[admin]]></wp:author_login>
+		<wp:author_email><![CDATA[contact@allodeejay.com]]></wp:author_email>
+		<wp:author_display_name><![CDATA[AlloDJ]]></wp:author_display_name>
+	</wp:author>
+
+	<item>
+		<title>Conditions générales d&#x27;utilisation</title>
+		<link>https://allodeejay.com/cgu/</link>
+		<pubDate>Fri, 11 Sep 2026 02:54:07 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://allodeejay.com/?page_id=1001</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p class="avis"><b>Document en cours de validation juridique.</b> Ce texte a été rédigé en interne pour décrire le fonctionnement réel de la plateforme. Il n'a pas encore été relu par un juriste. En cas de doute sur un point précis, écrivez à <a href="mailto:contact@allodeejay.com">contact@allodeejay.com</a>.</p>
+<p class="avis"><b>Paiement en phase de test.</b> Dans la version actuelle de l'application, le paiement est <b>simulé à des fins de démonstration</b> : aucune transaction bancaire réelle n'est effectuée et aucun montant n'est débité. Les montants, statuts et notifications reproduisent fidèlement ce que sera un paiement réel. Cette page sera mise à jour dès l'ouverture des paiements effectifs.</p>
+<p class="intro">Ces conditions encadrent l'utilisation d'AlloDJ, plateforme de mise en relation entre des clients organisant un événement et des DJs, avec possibilité d'ajouter sonorisation et éclairage.</p>
+<h2 id="presentation-du-service">1. Présentation du service</h2>
+<p>AlloDJ est une plateforme de mise en relation entre des clients organisant un événement et des DJs professionnels, avec possibilité d'ajouter des prestations de sonorisation et d'éclairage.</p>
+<p>AlloDJ <b>n'est pas l'employeur</b> des DJs référencés : la plateforme met en relation l'offre et la demande, et facilite la réservation et le paiement.</p>
+<h2 id="compte-et-eligibilite">2. Compte et éligibilité</h2>
+<p>L'utilisation du service nécessite un compte, ou une session visiteur temporaire. Les informations fournies doivent être exactes.</p>
+<p>Le service n'est pas destiné aux personnes de moins de 13 ans.</p>
+<h2 id="deroulement-d-une-reservation">3. Déroulement d'une réservation</h2>
+<p>Le client renseigne les informations de son événement — date, lieu, budget, type d'événement. Il reçoit une recommandation de DJ, ou en choisit un librement.</p>
+<p>Un devis est ensuite construit automatiquement à partir du tarif réel du DJ et des options choisies.</p>
+<p><b>La réservation n'est confirmée qu'après paiement de l'acompte</b>, soit 10 % du montant total. Tant que l'acompte n'est pas réglé, aucune date n'est bloquée.</p>
+<h2 id="prix-et-paiement">4. Prix et paiement</h2>
+<p>Le montant total de la prestation figure sur le devis. Il se décompose en :</p>
+<ul><li>un <b>acompte de 10 %</b> du montant total, payable à la confirmation de la réservation ;</li><li>un <b>solde de 90 %</b>, payable au plus tard <b>3 jours avant</b> la date de l'événement.</li></ul>
+<p>Le paiement s'effectue au sein de l'application.</p>
+<p>Si le solde n'est pas réglé avant l'échéance, la prestation pourra être suspendue ou annulée.</p>
+<h2 id="annulation-et-remboursement">5. Annulation et remboursement</h2>
+<p>Vous disposez d'un délai de <b>48 heures</b> après la confirmation de votre réservation pour l'annuler et obtenir le <b>remboursement intégral de votre acompte</b>.</p>
+<p>Passé ce délai de 48 heures, l'acompte de 10 % devient définitivement non remboursable, quelle que soit la raison de l'annulation.</p>
+<h2 id="obligations-du-dj">6. Obligations du DJ</h2>
+<p>Le DJ s'engage à être présent sur le lieu de la prestation à l'heure convenue, avec le matériel inclus dans son offre — packs Sonorisation et Éclairage éventuellement sélectionnés compris — en état de fonctionnement.</p>
+<h2 id="obligations-du-client">7. Obligations du client</h2>
+<p>Le client s'engage à garantir l'accès au lieu de l'événement, une alimentation électrique suffisante, et à régler le solde dans les délais indiqués.</p>
+<h2 id="entree-des-djs-sur-la-plateforme">8. Entrée des DJs sur la plateforme</h2>
+<p>Les DJs ne postulent pas librement. Un nouveau profil rejoint le roster <b>sur recommandation d'au moins 3 DJs déjà actifs</b>, qui se portent garants de son niveau et de son sérieux.</p>
+<p>Chaque prestation est notée après réalisation ; ces notes alimentent les recommandations suivantes.</p>
+<h2 id="responsabilite">9. Responsabilité</h2>
+<p>AlloDJ agit en tant qu'intermédiaire de mise en relation entre le client et le DJ. Sa responsabilité ne saurait être engagée au-delà de ce rôle d'intermédiaire, sauf faute qui lui serait directement imputable.</p>
+<h2 id="force-majeure">10. Force majeure</h2>
+<p>Aucune des parties ne pourra être tenue responsable d'une inexécution due à un cas de force majeure : catastrophe naturelle, décision administrative, coupure d'électricité prolongée, entre autres.</p>
+<h2 id="litiges">11. Litiges</h2>
+<p>Tout désaccord relatif à une réservation peut faire l'objet d'une demande auprès de l'équipe AlloDJ, qui statuera au cas par cas.</p>
+<p>Les présentes conditions sont soumises au <b>droit OHADA</b> et, à titre supplétif, au <b>droit camerounais</b>. À défaut de résolution amiable, les tribunaux compétents sont ceux de <b>Yaoundé</b>, siège de la société.</p>
+<h2 id="modification-des-conditions">12. Modification des conditions</h2>
+<p>Ces conditions peuvent évoluer. <b>La version en vigueur au moment de la réservation s'applique.</b> La date de dernière mise à jour figure en haut de cette page.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1001</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-11 02:54:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-11 02:54:07]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cgu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-legal.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Politique de confidentialité</title>
+		<link>https://allodeejay.com/confidentialite/</link>
+		<pubDate>Fri, 11 Sep 2026 02:54:07 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://allodeejay.com/?page_id=1002</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p class="intro">AlloDJ met en relation des clients avec des DJs et du matériel de sonorisation au Cameroun. Cette page explique quelles données sont collectées, pourquoi, et quels sont vos droits.</p>
+<h2 id="donnees-collectees">1. Données collectées</h2>
+<ul><li><b>Compte</b> — nom, adresse e-mail, numéro de téléphone.</li><li><b>Contenu que vous fournissez</b> — photos, publications, commentaires, messages, avis.</li><li><b>Localisation</b> — ville ou zone et lieu de l'événement, pour afficher les DJs proches. Uniquement avec votre autorisation.</li><li><b>Données techniques d'usage</b> — identifiant de compte, journaux d'erreurs.</li></ul>
+<h2 id="finalites">2. Finalités</h2>
+<ul><li>Créer et gérer votre compte.</li><li>Traiter les demandes de devis, les réservations et les locations.</li><li>Permettre la messagerie, les avis et le fil d'actualité.</li><li>Vous envoyer les notifications liées à vos réservations.</li><li>Assurer la sécurité et la modération du service.</li></ul>
+<h2 id="cookies-et-mesure-d-audience">3. Cookies et mesure d'audience</h2>
+<p>Le site ne dépose <b>aucun cookie de mesure ni de publicité tant que vous ne l'avez pas accepté</b>. Aucun script Google n'est même chargé avant votre choix : la bannière s'affiche à la première visite, et refuser prend un seul clic, exactement comme accepter.</p>
+<ul><li><b>Nécessaires</b> — la langue que vous choisissez est mémorisée dans votre navigateur. Aucun identifiant, aucune transmission à un tiers. Exemptés de consentement.</li><li><b>Mesure d'audience</b> — Google Analytics 4, pour comprendre quelles pages sont consultées. Déposés uniquement après acceptation. Adresse IP anonymisée.</li><li><b>Publicité</b> — Google Ads, pour mesurer l'efficacité de nos campagnes. Déposés uniquement après acceptation.</li></ul>
+<p>Nous utilisons le <b>Consent Mode v2</b> de Google : tant que vous n'avez pas accepté, les quatre signaux de consentement publicitaire et statistique sont transmis comme refusés.</p>
+<p>Vous pouvez revenir sur votre choix à tout moment via le lien <b>« Gérer mes cookies »</b> en bas de chaque page. Votre décision est conservée <b>13 mois</b>, puis la question vous est reposée.</p>
+<h2 id="partage-des-donnees">4. Partage des données</h2>
+<p><b>Nous ne vendons pas vos données.</b> Elles sont traitées via nos sous-traitants techniques, principalement <b>Google Firebase</b> — authentification, base de données, notifications, hébergement — qui agissent pour notre compte.</p>
+<p>Aucun suivi publicitaire inter-applications n'est effectué.</p>
+<p><b>Transfert hors Union européenne</b> — Google Firebase et, le cas échéant, Google Analytics et Google Ads hébergent des données aux <b>États-Unis</b>. Ces transferts s'appuient sur les clauses contractuelles types de la Commission européenne, intégrées aux conditions de Google.</p>
+<h2 id="conservation">5. Conservation</h2>
+<p>Vos données sont conservées tant que votre compte est actif. À la suppression du compte, elles sont effacées ou anonymisées, sauf obligation légale de conservation.</p>
+<p>Voir la page <a href="/suppression-de-compte/">Suppression de compte</a>.</p>
+<h2 id="vos-droits">6. Vos droits</h2>
+<p>Vous pouvez accéder à vos données, les corriger, ou demander la suppression de votre compte et de vos données en nous contactant.</p>
+<p>Depuis l'application, vous pouvez modifier votre profil, signaler un contenu et bloquer un utilisateur.</p>
+<h2 id="moderation-et-contenu-utilisateur">7. Modération et contenu utilisateur</h2>
+<p>Les publications, commentaires et messages sont générés par les utilisateurs. Tout contenu inapproprié peut être <b>signalé</b> depuis l'application, et tout utilisateur peut être <b>bloqué</b>.</p>
+<p>Les signalements sont examinés sous 24 heures et les contenus contraires à nos conditions sont retirés.</p>
+<h2 id="securite">8. Sécurité</h2>
+<p>Les échanges sont chiffrés en transit (HTTPS) et l'accès aux données est restreint par des règles de sécurité côté serveur.</p>
+<h2 id="mineurs">9. Mineurs</h2>
+<p>Le service n'est pas destiné aux personnes de moins de 13 ans. Si vous constatez qu'un compte a été créé par un mineur de moins de 13 ans, signalez-le à l'adresse de contact ci-dessous.</p>
+<h2 id="modifications">10. Modifications</h2>
+<p>Cette politique peut être mise à jour. La date en haut de page indique la dernière révision.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1002</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-11 02:54:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-11 02:54:07]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[confidentialite]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-legal.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Mentions légales</title>
+		<link>https://allodeejay.com/mentions-legales/</link>
+		<pubDate>Fri, 11 Sep 2026 02:54:07 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://allodeejay.com/?page_id=1003</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p class="intro">Informations légales relatives à l'éditeur et à l'hébergement du site allodeejay.com et de l'application AlloDJ.</p>
+<h2 id="editeur-du-site">Éditeur du site</h2>
+<ul><li><b>Dénomination sociale</b> — ALLO DJ SARL</li><li><b>Forme juridique</b> — Société à responsabilité limitée (SARL)</li><li><b>Numéro Identifiant Unique (NIU)</b> — M012317865859Z</li><li><b>Centre des impôts</b> — CDI Yaoundé 2</li><li><b>Capital social</b> — 1 000 000 FCFA</li><li><b>Numéro RCCM</b> — CM-NSI-02-2023B13-00329</li><li><b>Siège social</b> — Ngousso, Yaoundé, Cameroun</li><li><b>Téléphone</b> — <a href="tel:+237699806672">+237 699 80 66 72</a></li><li><b>E-mail</b> — <a href="mailto:contact@allodeejay.com">contact@allodeejay.com</a></li></ul>
+<h2 id="directeur-de-la-publication">Directeur de la publication</h2>
+<p>Njewa Ngangue Serge, cofondateur d'ALLO DJ SARL.</p>
+<h2 id="hebergement">Hébergement</h2>
+<ul><li><b>Site vitrine et nom de domaine</b> — Hostinger International Ltd, 61 Lordou Vironos Street, 6023 Larnaca, Chypre. Numéro de TVA intracommunautaire CY10301365E. Assistance&nbsp;: <a href="https://www.hostinger.fr/contact" target="_blank" rel="noopener">hostinger.fr/contact</a></li><li><b>Application et base de données</b> — Google Firebase, Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, États-Unis</li></ul>
+<p>Le nom de domaine allodeejay.com est enregistré auprès de Hostinger depuis le <b>14 décembre 2022</b>.</p>
+<h2 id="droit-applicable-et-juridiction">Droit applicable et juridiction</h2>
+<p>Le site et l'application sont régis par le <b>droit OHADA</b> et, à titre supplétif, par le <b>droit camerounais</b>.</p>
+<p>Tout litige relatif à leur utilisation relève des <b>tribunaux de Yaoundé</b>, siège de la société, après recherche d'une solution amiable auprès de <a href="mailto:contact@allodeejay.com">contact@allodeejay.com</a>.</p>
+<h2 id="propriete-intellectuelle">Propriété intellectuelle</h2>
+<p>La marque AlloDJ, le logo et l'ensemble des éléments graphiques du site sont la propriété de leur éditeur. Toute reproduction sans autorisation est interdite.</p>
+<p>Les photographies de DJs publiées sur ce site représentent des personnes réelles et sont utilisées avec leur accord. Les pochettes de compiles sont des créations originales.</p>
+<h2 id="donnees-personnelles">Données personnelles</h2>
+<p>Le traitement des données personnelles est décrit dans la <a href="/confidentialite/">politique de confidentialité</a>.</p>
+<h2 id="signaler-un-contenu">Signaler un contenu</h2>
+<p>Pour signaler un contenu illicite présent sur le site ou dans l'application : <a href="mailto:contact@allodeejay.com?subject=Signalement%20de%20contenu">contact@allodeejay.com</a>.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1003</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-11 02:54:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-11 02:54:07]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[mentions-legales]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-legal.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Suppression de compte</title>
+		<link>https://allodeejay.com/suppression-de-compte/</link>
+		<pubDate>Fri, 11 Sep 2026 02:54:07 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://allodeejay.com/?page_id=1004</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p class="intro">Vous pouvez demander à tout moment la suppression de votre compte AlloDJ et des données associées. Cette page décrit la marche à suivre, ce qui est effacé et ce qui est conservé.</p>
+<h2 id="depuis-l-application">Depuis l'application</h2>
+<p>Ouvrez <a href="https://appli.allodeejay.com/#/home" target="_blank" rel="noopener">AlloDJ</a>, allez dans <b>Profil</b> et faites défiler jusqu'en bas : le lien <b>« Supprimer mon compte »</b> se trouve sous le bouton Déconnexion. Confirmez, et c'est fait.</p>
+<h2 id="par-e-mail">Par e-mail</h2>
+<p>Si vous n'avez plus accès à l'application, écrivez à <a href="mailto:contact@allodeejay.com?subject=Suppression%20de%20compte">contact@allodeejay.com</a> depuis <b>l'adresse e-mail associée au compte</b>, avec pour objet « Suppression de compte ».</p>
+<p>Cette vérification par l'adresse d'origine évite qu'un tiers fasse supprimer votre compte à votre place.</p>
+<h2 id="ce-qui-est-supprime">Ce qui est supprimé</h2>
+<ul><li>Votre profil : nom, e-mail, numéro de téléphone, photo.</li><li>Vos publications, commentaires et messages.</li><li>Vos avis et vos notes.</li><li>Vos préférences et l'historique de vos recherches.</li></ul>
+<h2 id="ce-qui-est-conserve-et-pourquoi">Ce qui est conservé, et pourquoi</h2>
+<p>Certaines données liées à des réservations passées peuvent être conservées sous forme <b>anonymisée</b> — sans lien avec votre identité — lorsqu'une obligation comptable ou légale l'impose, ou pour maintenir la cohérence des historiques de prestation d'un DJ.</p>
+<p>Ces données ne permettent plus de vous identifier.</p>
+<h2 id="delai">Délai</h2>
+<p>Depuis l'application, la suppression est <b>immédiate</b> : votre profil, vos publications, vos commentaires et vos avis sont effacés, puis votre compte d'authentification est supprimé dans la foulée.</p>
+<p>Par e-mail, comptez <b>30 jours au maximum</b>. Une confirmation vous est envoyée une fois l'opération effectuée.</p>
+<h2 id="reservation-en-cours">Réservation en cours</h2>
+<p>Si une réservation est en cours au moment de la demande, contactez-nous d'abord : la suppression du compte n'annule pas automatiquement une prestation réservée, et n'ouvre pas droit au remboursement d'un acompte devenu non remboursable.</p>
+<p>Voir la <a href="/cgu/#annulation-et-remboursement">politique d'annulation</a>.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1004</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-11 02:54:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-11 02:54:07]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[suppression-de-compte]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-legal.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Aide et support</title>
+		<link>https://allodeejay.com/support/</link>
+		<pubDate>Fri, 11 Sep 2026 02:54:07 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://allodeejay.com/?page_id=1005</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p class="intro">Une question sur une réservation, un paiement ou votre compte ? Cette page réunit les moyens de nous joindre et les réponses aux situations les plus fréquentes.</p>
+<h2 id="nous-contacter">Nous contacter</h2>
+<ul><li><b>E-mail</b> — <a href="mailto:contact@allodeejay.com">contact@allodeejay.com</a>, réponse sous 24 heures ouvrées</li><li><b>Téléphone et WhatsApp</b> — <a href="tel:+237699806672">+237 699 80 66 72</a></li><li><b>Facebook</b> — <a href="https://www.facebook.com/profile.php?id=100092519151625" target="_blank" rel="noopener">page AlloDJ</a></li></ul>
+<p>Pour une prestation ayant lieu dans les 48 heures, privilégiez le téléphone.</p>
+<h2 id="ce-qu-il-faut-nous-indiquer">Ce qu'il faut nous indiquer</h2>
+<p>Pour traiter une demande liée à une réservation, précisez la <b>date de l'événement</b>, la <b>ville</b> et le <b>nom du DJ</b> concerné. Sans ces trois éléments, il faut un aller-retour de plus.</p>
+<h2 id="le-dj-ne-repond-pas">Le DJ ne répond pas</h2>
+<p>Passez par la messagerie intégrée à l'application plutôt que par un numéro personnel : les échanges y sont tracés, ce qui permet de trancher en cas de désaccord. Sans réponse sous 24 heures, écrivez-nous.</p>
+<h2 id="annuler-une-reservation">Annuler une réservation</h2>
+<p>L'annulation est sans frais dans les <b>48 heures</b> qui suivent la réservation. Passé ce délai, l'acompte reste acquis au DJ qui a bloqué sa date.</p>
+<p>Détail dans les <a href="/cgu/">conditions générales</a>.</p>
+<h2 id="probleme-de-paiement">Problème de paiement</h2>
+<p>Le paiement est actuellement en <b>phase de test</b> : aucune transaction bancaire réelle n'est effectuée. Si un montant apparaît anormal dans l'application, signalez-le, cela ne correspond à aucun débit.</p>
+<h2 id="mot-de-passe-oublie">Mot de passe oublié</h2>
+<p>Utilisez « Mot de passe oublié » sur l'écran de connexion. Le lien de réinitialisation part sur l'adresse e-mail du compte. Vérifiez vos indésirables avant de nous écrire.</p>
+<h2 id="supprimer-votre-compte">Supprimer votre compte</h2>
+<p>Depuis <b>Profil</b>, tout en bas. Marche à suivre complète sur la page <a href="/suppression-de-compte/">Suppression de compte</a>.</p>
+<h2 id="devenir-dj-sur-allodj">Devenir DJ sur AlloDJ</h2>
+<p>L'entrée se fait sur recommandation d'au moins 3 DJs déjà actifs. Il n'y a pas de formulaire de candidature ouvert — mais vous pouvez nous écrire pour poser vos questions.</p>
+<h2 id="signaler-un-contenu-ou-un-utilisateur">Signaler un contenu ou un utilisateur</h2>
+<p>Depuis l'application : bouton <b>Signaler</b> sur la publication ou le profil concerné. Les signalements sont examinés sous 24 heures.</p>
+<p>Vous pouvez aussi écrire à <a href="mailto:contact@allodeejay.com?subject=Signalement">contact@allodeejay.com</a>.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1005</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-11 02:54:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-11 02:54:07]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[support]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-legal.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+</channel>
+</rss>

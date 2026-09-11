@@ -1,0 +1,19 @@
+# Généré par tools/capture.py — captures d'écran de vérification, 43 Mo,
+# entièrement reproductibles (python tools/capture.py).
+tools/captures/
+
+# Sauvegardes horodatées laissées par des éditions précédentes
+# (assets/site.css.bak-20260910-204704, etc.) — l'historique git les remplace.
+*.bak-*
+
+# Fichiers de contrôle temporaires (tools/*.py les écrivent puis les
+# suppriment ; ce motif est une garde-fou si un script s'arrête en cours).
+/_v1-*.html
+/_ctrl-*.html
+/_ctrl-*.css
+
+__pycache__/
+*.pyc
+
+.DS_Store
+Thumbs.db

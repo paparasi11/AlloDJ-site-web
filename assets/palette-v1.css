@@ -1,0 +1,47 @@
+/* ══ PALETTE V1 — noir froid et vert citron ══
+   À charger APRÈS site.css. Ce fichier ne contient aucune règle de mise en
+   page : la v1 et la v2 partagent exactement le même responsive, le même
+   découpage et les mêmes cibles tactiles. Seules les couleurs changent.
+
+   C'est pour ça que site.css ne contient plus une seule couleur écrite en
+   dur : les voiles et les dégradés passent par --void-rgb, --rose-rgb et
+   --blue-rgb, et les libellés posés sur un aplat par --on-pad / --on-peak.
+   Sans ces jetons, les fondus des cartes resteraient indigo sur fond noir. */
+
+:root{
+  --void:#0A0A0B; --panel:#141416; --panel-2:#1C1C1F;
+  --line:#26262B; --line-2:#3A3A42;
+  --blue:#2E5BFF; --rose:#E10181; --peak:#C6F24E;
+  --ink:#F2F2F3; --ink-2:#A8A8B0;
+
+  /* #82828C d'origine tombait à 4,47:1 sur --panel-2 : sous le seuil AA, de
+     peu. Relevé au strict nécessaire pour passer, la hiérarchie est intacte. */
+  --ink-3:#8A8A95;
+
+  /* Le bleu vif n'est lisible qu'en aplat : 3,82:1 en texte sur le noir. Les
+     petits libellés (numéros d'onglet, numéros d'étape) prennent cette version
+     éclaircie, qui monte à 6,1:1. */
+  --blue-t:#7C95FF;
+
+  --void-rgb:10 10 11;
+  --rose-rgb:225 1 129;
+  --blue-rgb:46 91 255;
+
+  --shadow-pad:#1B3AAE;
+  --peak-d:#8FB32E;
+  --rose-d:#8FB32E;
+
+  /* Sur le bleu électrique de la v1, c'est le blanc qui passe (5,2:1) et le
+     sombre qui échoue (3,8:1) — l'inverse exact de la v2. D'où le rôle. */
+  --on-pad:#fff;
+  --on-peak:var(--void);
+
+  /* La v1 n'a pas de troisième couleur : son registre « promesse » était déjà
+     le vert citron. --cream s'y replie, et les trois endroits où la v1 avait
+     fait un autre choix sont rétablis juste dessous. */
+  --cream:var(--peak);
+}
+
+.pull p{color:#fff;}
+.trust b{color:var(--ink);}
+.signoff .tag{color:var(--ink-3);}

@@ -1,0 +1,31 @@
+/* ══ PAGES LÉGALES ══ */
+.legal{max-width:76ch;padding:38px 0 20px;}
+/* le H1 hérite de .big : sans taille ni marge propres, les mots découpés
+   par l'animation viennent chevaucher la ligne de mise à jour. */
+.legal h1{font-size:clamp(28px,4.4vw,46px);line-height:1.14;letter-spacing:-.025em;margin:0 0 16px;text-transform:none;}
+.legal .intro{font-size:17px;color:var(--ink-2);line-height:1.65;margin:0 0 10px;}
+.legal h2{font-size:20px;font-weight:700;margin:44px 0 12px;letter-spacing:-.01em;}
+.legal h2:first-of-type{margin-top:34px;}
+.legal p{color:var(--ink-2);font-size:15px;line-height:1.7;margin:0 0 12px;}
+.legal b{color:var(--ink);font-weight:600;}
+.legal ul{margin:0 0 12px;padding-left:20px;color:var(--ink-2);font-size:15px;line-height:1.7;}
+.legal li{margin-bottom:7px;}
+.legal a{color:var(--peak);text-decoration:underline;text-underline-offset:3px;}
+.legal .avis{border-left:2px solid var(--blue);background:var(--panel);padding:16px 18px;margin:0 0 18px;border-radius:0 var(--r-s) var(--r-s) 0;}
+.legal .maj{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin:0 0 26px;}
+.legal .todo{background:#4A2A00;color:#FFC46B;padding:1px 7px;border-radius:3px;font-family:var(--f-mono);font-size:11px;font-weight:700;letter-spacing:.06em;}
+.legal .fin{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);display:flex;gap:20px;flex-wrap:wrap;font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;}
+
+@media (max-width:720px){
+  .legal{padding-top:26px;}
+}
+
+/* Au doigt : la ligne de mise à jour redevient lisible et les liens de bas de
+   page atteignent les 44 px. Ces règles vivent ici et non dans site.css —
+   legal.css est chargée après, elle gagnerait sur une spécificité égale.
+   Même couple de requêtes que site.css : une largeur OU un pointeur grossier. */
+@media (max-width:1000px), (pointer:coarse){
+  .legal .maj{font-size:11px;}
+  .legal .fin{gap:4px 20px;}
+  .legal .fin a{display:inline-block;padding:13px 0;}
+}

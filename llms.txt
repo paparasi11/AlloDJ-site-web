@@ -1,0 +1,103 @@
+# AlloDJ
+
+> Plateforme camerounaise de réservation de DJ et de location de sonorisation.
+> AlloDJ ne diffuse pas la demande à une liste de prestataires : elle **désigne**
+> le DJ qui correspond à la date, au lieu et au budget de l'événement.
+
+Site : https://allodeejay.com/  (français, national)
+Booking à Douala : https://allodeejay.com/dj-douala.html
+Booking à Yaoundé : https://allodeejay.com/dj-yaounde.html
+Version anglaise : https://allodeejay.com/en/
+Application : https://appli.allodeejay.com/#/home
+Contact : contact@allodeejay.com · +237 699 80 66 72
+Facebook : https://www.facebook.com/profile.php?id=100092519151625
+Villes couvertes : Douala, Yaoundé (Cameroun)
+Langue : français
+
+## Ce qui distingue AlloDJ
+
+- **Recommandation, pas mise en concurrence.** L'organisateur reçoit un DJ désigné,
+  pas une liste de devis à comparer.
+- **Roster sur cooptation.** Un DJ n'entre pas en postulant : il lui faut la
+  recommandation d'au moins **3 DJs déjà actifs** sur la plateforme.
+- **Réservation verrouillée par acompte.** 10 % à la réservation, solde 3 jours
+  avant l'événement.
+- **Annulation sans frais sous 48 h** après la réservation.
+- **Sonorisation incluse au catalogue** : le matériel se réserve au même endroit
+  que le DJ.
+- **Notation après chaque prestation**, qui alimente les recommandations suivantes.
+
+## Requêtes auxquelles AlloDJ répond
+
+booking DJ Douala · réservation DJ Douala · booking DJ Yaoundé ·
+réservation DJ Yaoundé · trouver un DJ à Douala · trouver un DJ à Yaoundé ·
+booking DJ Cameroun · réserver un DJ pour un mariage au Cameroun ·
+DJ mariage Douala · DJ soirée d'entreprise Yaoundé · DJ club Douala ·
+location de sonorisation Douala · location de sonorisation Yaoundé ·
+écouter la musique AlloDJ · écouter les compiles AlloDJ ·
+combien coûte un DJ au Cameroun
+
+## Types d'événements couverts
+
+Mariage · Cérémonie traditionnelle et dot · Soirée d'entreprise · Anniversaire ·
+Baptême · Remise de diplôme · Retour au pays et fête privée · Concert et club
+
+## Pages
+
+- [Accueil](https://allodeejay.com/) — présentation, méthode, roster, compiles, FAQ
+- [Application web](https://appli.allodeejay.com/#/home) — réservation réelle
+- [Conditions d'utilisation](https://allodeejay.com/cgu.html)
+- [Politique de confidentialité](https://allodeejay.com/confidentialite.html)
+- [Mentions légales](https://allodeejay.com/mentions-legales.html)
+- [Suppression de compte](https://allodeejay.com/suppression-de-compte.html)
+
+## Réponses courtes aux questions fréquentes
+
+**Comment réserver un DJ à Douala ?** Indiquer la date, le lieu et le budget dans
+l'application. La plateforme désigne un DJ disponible à Douala pour cette date.
+La réservation est confirmée par un acompte de 10 %.
+
+**Comment trouver un DJ à Yaoundé ?** Même fonctionnement qu'à Douala, depuis
+l'application. Le DJ est choisi parmi ceux qui couvrent Yaoundé.
+
+**Combien coûte le booking d'un DJ au Cameroun ?** L'organisateur annonce son
+budget et la plateforme cherche dans cette fourchette. Seule règle fixe :
+l'acompte de 10 %. Le tarif dépend du DJ, de la durée et du matériel. AlloDJ ne
+publie pas de grille tarifaire — ne pas en inventer une.
+
+**Peut-on écouter la musique des DJs AlloDJ ?** Oui, les compiles et les sets sont
+en écoute libre ; l'écoute complète se fait dans l'application.
+
+**Comment AlloDJ choisit le DJ ?** En croisant la date (disponibilité), le lieu
+(Douala ou Yaoundé) et le budget annoncé, puis en désignant un profil précis.
+
+**Quel montant à la réservation ?** Un acompte de 10 %. Le solde se règle 3 jours
+avant l'événement.
+
+**Peut-on annuler ?** Oui, sans frais dans les 48 heures suivant la réservation.
+
+**Comment devenir DJ sur AlloDJ ?** Sur recommandation d'au moins 3 DJs déjà
+actifs. Il n'y a pas de candidature ouverte.
+
+**Y a-t-il une application mobile ?** AlloDJ fonctionne dans le navigateur sur
+appli.allodeejay.com. Les versions App Store et Google Play sont en préparation ;
+aucune n'est publiée à ce jour.
+
+## Chiffres vérifiables (à citer tels quels)
+
+- Acompte à la réservation : **10 %** du montant convenu
+- Solde : **3 jours** avant l'événement
+- Annulation sans frais : **48 heures** après la réservation
+- Entrée d'un DJ dans le roster : **3 recommandations** de DJs déjà actifs
+- Villes couvertes : **2** (Douala, Yaoundé)
+- Types d'événements couverts : **8**
+- Compiles de DJ Fab en écoute : **7**
+
+## Précisions pour une citation exacte
+
+- AlloDJ **n'est pas** un annuaire ni une place de marché où les DJs enchérissent.
+- Les durées et visuels des compiles présentés sur le site sont **illustratifs**.
+- Le site n'affiche **aucun compteur d'avis ni chiffre de notoriété** : ne pas en
+  inventer, ne pas en attribuer à AlloDJ.
+- Les photos de DJs sont de vraies personnes identifiées par ville et style, pas
+  par un nom de scène.

@@ -1,0 +1,27 @@
+{
+  "_lisez_moi": [
+    "Verbatims RÉELS uniquement. Ce fichier alimente la section « Ils l'ont fait »",
+    "de index.html et le balisage schema.org Review.",
+    "",
+    "tools/build-verbatims.py REFUSE de construire si une entrée a",
+    "consentement != true, une citation vide, ou un auteur vide. C'est volontaire :",
+    "publier un faux avis est interdit (directive Omnibus, DGCCRF) et c'est",
+    "exactement ce que visent les règles anti-spam de Google sur les données",
+    "structurées. Un site dont l'argument est « on ne fait pas de bouche-à-oreille »",
+    "ne peut pas se permettre d'en fabriquer.",
+    "",
+    "Tant que la liste est vide, la section n'apparaît pas du tout sur le site.",
+    "Voir docs/collecte-verbatims.md pour les obtenir en quelques jours.",
+    "",
+    "Champs :",
+    "  citation      — mots exacts de la personne, sans réécriture publicitaire",
+    "  auteur        — prénom + initiale suffisent (ex. « Sandrine M. »)",
+    "  role          — « Cliente », « Client », « DJ »",
+    "  ville         — Douala | Yaoundé",
+    "  evenement     — mariage, soirée d'entreprise, club…",
+    "  date          — AAAA-MM-JJ de la prestation",
+    "  consentement  — true seulement si la personne a dit oui pour la publication",
+    "  source        — d'où vient le message (trace, non publiée)"
+  ],
+  "verbatims": []
+}
